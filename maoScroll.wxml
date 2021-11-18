@@ -1,0 +1,9 @@
+<view>
+	<view class="maoScroll-main" style="height:{{maoScroll}}rpx; line-height:{{lineHeight}}rpx">
+		<view class="maoTop" style="top:-{{marginTop}}rpx">
+			<view wx:for="{{showdata}}" style="height:{{lineHeight}}rpx;">
+				<text>{{item}}</text>
+			</view>
+		</view>
+	</view>
+</view>
